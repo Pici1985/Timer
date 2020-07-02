@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer</title>
+</head>
+
+<body>
+    <p id="title" >Time is ticking away...</p>
+
+
+    <div id="clock"></div>
+
+
+    <div id="outerWrp">
+        <div id="column1">
+
+            <h2>Study Time Counter</h2>
+            <div id="stopwatch">
+                <h1 id="count">00:00:00</h1>
+            </div>
+            <div class="buttons">
+                <button class="btn" id="start" onclick="">Start</button>
+                <button class="btn" id="stop" onclick="">Stop</button>
+                <button class="btn" id="clear" onclick="">Clear</button>
+                <button class="btn" id="submit" onclick="submit()">Submit</button>
+            </div>
+
+            <div id="wrp">
+
+            </div>
+
+            <div id="column2">
+                <h2>Study Time Data</h2>
+            </div>
+            <div id="data">
+                ide jon a data
+            </div>
+            <div class="buttons">
+                <button class="btn" id="get" onclick="">Get study history</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="stopwatch.js"></script>
+    <script src="submit.js"></script>
+</body>
+
+</html>
