@@ -9,11 +9,13 @@
 </head>
 
 <body>
-    <p id="title" >Time is ticking away...</p>
+    <div id="titleDiv">
+        <p id="title" >Time is ticking away...</p>
+    </div>
 
-
+    <div id="clockDiv"> 
     <div id="clock"></div>
-
+    </div>>    
 
     <div id="outerWrp">
         <div id="column1">
@@ -36,11 +38,11 @@
             <div id="column2">
                 <h2>Study Time Data</h2>
             </div>
-            <div id="data">
-                ide jon a data
+            <div id="dataDiv">
+                
             </div>
             <div class="buttons">
-                <button class="btn" id="get" onclick="">Get study history</button>
+                <button class="btn" id="get" onclick="getData()">Get study history</button>
             </div>
 
         </div>

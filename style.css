@@ -43,6 +43,8 @@ body {
     font-size: 20px;
     border-radius: 5px;
     box-shadow: 1px 1px 15px white;
+    background-color: white;
+    color: black;
 
 }
 h2 {
@@ -95,6 +97,23 @@ h1 {
   margin-bottom: 40px; 
 }
 
-#data {
+#dataDiv {
+  display: grid;
+  grid-template-columns: 1fr ;
+  margin-top: 10px;
+  height: auto;
   color: white;
+  font-size: 24px;
+  padding-bottom: 40px;
+    
+}
+
+#titleDiv {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#clockDiv {
+  display: grid;
+  grid-template-columns: 1fr;
 }
