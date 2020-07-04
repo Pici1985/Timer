@@ -9,20 +9,20 @@
 </head>
 
 <body>
-    <div id="titleDiv">
-        <p id="title" >Time is ticking away...</p>
+    <div id="firstDiv" >
+        <div id="titleDiv">
+            <p id="title">Time is ticking away...</p>
+        </div>
+        <div id="clockDiv">
+            <div id="clock"></div>
+        </div>
     </div>
 
-    <div id="clockDiv"> 
-    <div id="clock"></div>
-    </div>>    
-
     <div id="outerWrp">
-        <div id="column1">
             <div id="main">
-            <h2>Study Time Counter</h2>
+                <h2>Study Time Counter</h2>
             </div>
-            
+
             <div id="stopwatch">
                 <h1 id="count">00:00:00</h1>
             </div>
@@ -37,24 +37,26 @@
 
             </div>
 
-            <div id="column2">
-                <h2>Study Time Data</h2>
-            </div>
+            <div>
+            <h2>Study Time Data</h2>
+            </div>    
+
             <div id="dataDiv">
-                
+
             </div>
+
             <div class="buttons">
                 <button class="btn" id="get" onclick="getData()">Get study history</button>
             </div>
+
             <div class="buttons">
                 <button class="btn" id="get" onclick="document.location.reload(true)">Clear All Data</button>
             </div>
+        
         </div>
 
-    </div>
 
-
-    <script src="app.js"></script>
+    <script src="clock.js"></script>
     <script src="stopwatch.js"></script>
     <script src="submit.js"></script>
 </body>
