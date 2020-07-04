@@ -9,19 +9,19 @@ body {
   color: #66ff99;
   font-size: 30px;
   text-align: center;
-  padding: 10px 10px;
+  padding: 10px 30px;
   text-shadow: 1px 1px 25px #66ff99;
   margin: 5px auto 40px;
   box-shadow: 0px 0px 25px #66ff99;
   border-radius: 10px;
-  width: 300px;
+  width: 250px;
   
 }
 
 #stopwatch{
     font-family: 'Orbitron', sans-serif;
     /* border: 1px solid red; */
-    width: 300px;
+    width: 250px;
     font-size: 15px;
     margin: 5px auto 40px;
     text-align: center;
@@ -48,6 +48,7 @@ body {
     box-shadow: 1px 1px 15px white;
     background-color: white;
     color: black;
+    
 
 }
 h2 {
@@ -56,6 +57,7 @@ h2 {
     font-family: 'Orbitron', sans-serif;
     text-shadow: 1px 1px 15px white;
     text-decoration: underline;
+    margin: auto;
 }
 
 /*  h1 {
@@ -97,7 +99,8 @@ h2 {
   text-decoration: underline;
   margin: 0px auto;
   font-size: 50px;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
+
 }
 
 #dataDiv {
@@ -108,6 +111,7 @@ h2 {
   color: white;
   font-size: 24px;
   padding-bottom: 40px;
+  margin: auto;
     
 }
 
@@ -119,9 +123,16 @@ h2 {
 #clockDiv {
   display: grid;
   grid-template-columns: 1fr;
+  
 }
 
 #main {
   margin-bottom:  50px;
 }
 
+
+@media screen and (max-width:400px) {
+  @-ms-viewport{
+      width:320px;
+  }
+}
