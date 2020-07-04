@@ -17,7 +17,7 @@ function createDiv(count) {
    div.style.fontFamily = "'Orbitron', sans-serif "; 
    div.style.marginTop = "15px";
    div.style.padding = "5px";
-   div.style.paddingTop = "20px";
+   div.style.paddingTop = "40px";
    div.innerHTML = `Your last study time session was: ${count}s long.`;
 
 document.getElementById("wrp").appendChild(div);
@@ -75,7 +75,7 @@ function createLine(date, time) {
     line.style.color = "white";
     line.style.fontFamily = "'Orbitron', sans-serif "; 
     line.style.padding = "5px";
-    line.style.paddingTop = "20px";
+    line.style.paddingTop = "40px";
     line.innerHTML = "On " + date + " you had a " + time + " long session!!";
     
     document.getElementById("dataDiv").appendChild(line);
