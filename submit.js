@@ -57,29 +57,26 @@ function getData() {
 }
 
 
-function createRsp(data) {
-  let lines = {};
-  for(let i = 0; i < data.length; i++) {
-     date = data[i].date;
-     time = data[i].time;
-  }
-
-  console.log(data);
-  console.log(date, time);
- 
+function createRsp(data){
+  data.forEach(function(data) {             // ez fog kelleni nekem a projektemho
+  let date = data.date;
+  let time = data.time;
   createLine(date, time);
+  });
 }
 
-function createLine(date, time) {
-      let line = document.createElement("line");
-      line.style.width = "100%";
-      line.style.fontSize = "20px";
-      line.style.textAlign = "center";
-      line.style.color = "white";
-      line.style.fontFamily = "'Orbitron', sans-serif "; 
-      line.style.padding = "5px";
-      line.style.paddingTop = "5px";
-      line.innerHTML = "On " + date + " you have studied " + time + " s!!";
 
-document.getElementById("dataDiv").appendChild(line);
-}  
+
+function createLine(date, time) {
+    let line = document.createElement("line");
+    line.style.width = "100%";
+    line.style.fontSize = "20px";
+    line.style.textAlign = "center";
+    line.style.color = "white";
+    line.style.fontFamily = "'Orbitron', sans-serif "; 
+    line.style.padding = "5px";
+    line.style.paddingTop = "5px";
+    line.innerHTML = "On " + date + " you had a " + time + " long session!!";
+    
+    document.getElementById("dataDiv").appendChild(line);
+  }  
