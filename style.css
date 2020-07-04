@@ -3,6 +3,8 @@
 body {
   background-color: black;
   margin: auto;
+  width: 1vp;
+  border: 1px solid blue;  
 }
 
 #clock {
