@@ -128,8 +128,8 @@ h2 {
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:750px) {
   @-ms-viewport{
-      width:500px;
+      width:750px;
   }
 }
