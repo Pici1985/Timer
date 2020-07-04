@@ -40,8 +40,10 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 } 
+
+
 
 .btn {
     font-family: 'Orbitron', sans-serif;;
@@ -50,6 +52,7 @@ body {
     box-shadow: 1px 1px 15px white;
     background-color: white;
     color: black;
+    width: 100px;
     
 
 }
