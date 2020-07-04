@@ -3,7 +3,7 @@
 body {
   background-color: black;
   margin: auto;
-  width: 1vp;
+  width: auto;
   /* border: 1px solid blue;  */
 }
 
@@ -128,8 +128,8 @@ h2 {
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
   @-ms-viewport{
-      width:320px;
+      width:500px;
   }
 }
